@@ -67,21 +67,12 @@ const Navbar = () => {
               <Link className="nav-link" to="/" onClick={handleLinkClick}>Home</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/about" onClick={handleLinkClick}>About</Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/designprocess" onClick={handleLinkClick}>Design Process</Link>
-            </li>
-            <li className="nav-item">
               <Link className="nav-link" to="/projects" onClick={handleLinkClick}>Projects</Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/contact" onClick={handleLinkClick}>Contact</Link>
             </li>
             
-            {/* <li className="nav-item">
-              <Link className="nav-link" to="/portfolio" onClick={handleLinkClick}>Portfolio</Link>
-            </li> */}
           </ul>
         </div>
       </div>

@@ -5,8 +5,29 @@
     <link rel="icon" type="image/jpg" href="/src/assets/images/JesseInverse.jpg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jesse Makes Games</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <!-- Add Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script>
+      // Restore path encoded by 404.html for GitHub Pages SPA routing
+      (function() {
+        var query = window.location.search;
+        if (query.slice(1, 3) === 'p=') {
+          var path = query.slice(3).replace(/~and~/g, '&');
+          var qs = '';
+          var qi = path.indexOf('&q=');
+          if (qi !== -1) {
+            qs = '?' + path.slice(qi + 3).replace(/~and~/g, '&');
+            path = path.slice(0, qi);
+          }
+          window.history.replaceState(null, null,
+            window.location.pathname.replace(/\/$/, '') + '/' + path + qs + window.location.hash
+          );
+        }
+      })();
+    </script>
   </head>
   <body>
     <div id="root"></div>

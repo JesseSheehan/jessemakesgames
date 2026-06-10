@@ -1,5 +1,4 @@
 import React from 'react';
-// import designProcessImage from '../assets/images/.png';
 
 export default function DesignProcess() {
     return (
@@ -90,8 +89,6 @@ export default function DesignProcess() {
             
             <hr />
 
-            {/* <img src={designProcessImage} alt="Design Process" className="design-process-image" /> */}
-            
             <div className="mb-5">
                 <h3>Playtesting Business Frog and MineFind</h3>
                 <p>This section will be all about how I conducted playtesting with Google Forms during the production of my two solo-developed games, inspired by my work and Playtesting at Noggin.</p>
@@ -99,8 +96,6 @@ export default function DesignProcess() {
             </div>
 
             <hr />
-            
-            {/* <img src={designProcessImage} alt="Design Process" className="design-process-image" /> */}
             
             <div className="mb-5">
                 <h3>Concepting and Problem-solving for Noggin Games</h3>
