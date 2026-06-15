@@ -13,7 +13,7 @@ import "./App.css";
 function App() {
 
   return (
-    <Router basename="/jessemakesgames">
+    <Router basename="/">
       <div className="app-container">
         <Navbar />
         <div className="container">

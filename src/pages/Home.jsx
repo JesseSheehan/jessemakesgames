@@ -98,9 +98,9 @@ function Home() {
                   📄 Resume
                 </a>
                 <a
-                  href="#"
+                  href="https://drive.google.com/drive/folders/1HaevMyWRhY0ulWJy1dqwen0zamSZU8xd?usp=sharing"
                   className="btn-hero-secondary"
-                  title="Portfolio — swap this href for your Google Drive link"
+                  title="Portfolio"
                 >
                   📁 Portfolio
                 </a>
