@@ -74,24 +74,20 @@ function Home() {
           <div className="about-content">
             <img src={jessemario} alt="Jesse at Super Nintendo World" className="about-image" />
             <div className="about-text">
-              <h1>Jesse Sheehan Makes Games</h1>
-              <h4><i>and he's excited to tell you about them!</i></h4>
+              <h1>Jesse Sheehan</h1>
+              <h4><i>Creative x Project Manager</i></h4>
               <br />
               <p>
-                After 30 years of playing games, I'm excited to be making them! Over the past few years,
-                I've pivoted my career from TV production to gaming — learning to design and code games
-                using Unity and Godot, while working full-time as a producer and designer for
-                Nickelodeon's Noggin app.
+               Thanks for visiting my website! 
               </p>
               <p>
-                I've been making and producing games for a while now, and I'm excited to share my
-                process through this website!
+                I've been working in various forms of media production for 15 years from web series to animation to app and game development, and I'm looking for my next exciting opportunity.
               </p>
 
               <div className="hero-ctas">
                 <Link to="/projects" className="btn-hero-primary">See My Work →</Link>
                 <a
-                  href="#"
+                  href="https://drive.google.com/file/d/1YE7U2cFXtcfLy-DsECjDRkHNxXssQatn/view?usp=sharing"
                   className="btn-hero-secondary"
                   title="Resume — swap this href for your actual link"
                 >
@@ -113,17 +109,11 @@ function Home() {
       {/* ── Creative Producer + Filmstrip ── */}
       <section className="home-producer fade-in-section" ref={addRef}>
         <div className="home-producer-text">
-          <h2>Creative Producer &amp; Game Designer</h2>
+          <h2>Creative Producer, Project Manager, and More!</h2>
           <p>
-            From Nickelodeon's flagship kids' platform to self-published indie releases, I've spent years
-            producing and designing games across a wide range of scales and audiences. Whether leading a
-            team of artists and developers through an 18-game slate for a major IP, or building and
-            shipping a solo project from scratch, I bring the same creative rigor and production focus
-            to everything I work on.
-          </p>
-          <p>
-            I've shipped licensed Nickelodeon properties and original IP alike — and I love both sides
-            of that coin.
+           From award-winning kids games to self-published indie releases, I've spent years producing and designing content across a wide range of scales and audiences. Whether leading a team of artists and developers through an 18-game slate for a major IP, or building and shipping a solo project from scratch, I bring the same creative rigor and production focus to everything I work on.
+
+I've shipped licensed Nickelodeon properties and original IP alike — and I love both sides of that coin.
           </p>
         </div>
 
@@ -150,30 +140,14 @@ function Home() {
             <img src={jessebeatles} alt="Jesse" className="about-image" />
             <div className="about-text">
               <h2>About Me</h2>
-              <p>
-                Hailing from the exotic suburbs of Connecticut, I now reside within a{" "}
-                <strike>rent-stabilized apartment</strike> <i>luxurious bungalow</i> in Brooklyn, NY.
-                After studying screenwriting and TV production at Emerson College, I began my career in
-                Los Angeles voiceover and animation studios before returning to the east coast. There, I
-                joined Nickelodeon's game department and throughout my tenure there, directed 18 games for
-                their (now defunct) Noggin app.
-              </p>
-              <p>
-                While off the clock, I spent my free time focusing on learning to code and understand game
-                development. I completed a full-stack web development bootcamp via Columbia University,
-                learned iOS app development, and created a handful of games using Unity and Godot. I've
-                fallen in love with game design and enjoy creating games as a form of social commentary –
-                but I've also been known to make pixel art games about white collar frogs or surfing
-                flamingos.
-              </p>
-              <p>
-                I've been looking for full-time work since Noggin closed its doors in 2024, but that
-                doesn't mean I haven't been busy. Over the past year, I've become a Certified ScrumMaster,
-                freelanced as a QA Tester for the game "Entropy Survivors", and recently completed a video
-                game writing intensive via Gotham Writers Workshop. Additionally, I've participated in
-                several game jams, released a couple games, and began designing a game for a smaller indie
-                LLC.
-              </p>
+               <p>
+            I'm Jesse Sheehan, a creative producer, project manager, and independent creator based in Brooklyn. For the past decade I've worked in kids media and digital content production, mostly as a Senior Producer at Nickelodeon's Noggin app, where I shipped 15+ branded educational games across Nick Jr. IP (PAW Patrol, Blue's Clues, Dora) as well as licensed partnerships with Hasbro, Spin Master, and The Metropolitan Museum of Art. One of those games picked up a 2024 Kidscreen Award, and around ten of which are still running on <i>Nick Jr. Replay</i> (Apple Arcade) and Nick.com nearly two years after Paramount sunset the Noggin app. 
+          </p> <p>
+              
+Outside of producing work, I write, design, and ship my own games and apps. MineFind is a Minesweeper-inspired puzzle game I built in Swift-UI and shipped to the App Store in 2025. Business Frog is a 2D platformer I made in Unity, mostly to learn the engine. I'm currently finishing VinylVision, an iOS app for music lovers who like to pilfer through record stores, but want to hear an album before they buy it. 
+            
+            I studied screenwriting and TV production at Emerson college, and have continued to strenghten my prcreative problem solving muscles
+          </p>
               <p>
                 What else am I up to? You'll have to{" "}
                 <a href="/jessemakesgames/contact">ask me</a>!

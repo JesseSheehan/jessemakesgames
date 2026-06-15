@@ -50,7 +50,7 @@ const Navbar = () => {
           className={`navbar-brand nav-img ${isSpinning ? 'spinAndColor' : ''}`}
           onClick={handleImageClick}
         />
-        <Link className="navbar-brand" to="/">Jesse Makes Games</Link>
+        <Link className="navbar-brand" to="/">Jesse Sheehan</Link>
         <button 
           className={`navbar-toggler ${isNavCollapsed ? 'collapsed' : ''}`}
           type="button" 
