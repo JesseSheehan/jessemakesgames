@@ -12,7 +12,7 @@ function Contact() {
 
       <div className="d-flex gap-3 mb-5">
         <a
-          href="https://github.com/sweetfreak"
+          href="https://github.com/jessesheehan"
           target="_blank"
           rel="noopener noreferrer"
           className="contact-social-btn"

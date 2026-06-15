@@ -13,12 +13,12 @@ import gameJams from '../assets/images/gamejamscollage2.png';
 import entropy from '../assets/images/EntropyGame.png';
 
 const filmstripItems = [
-  { image: nogginCollage, title: "Noggin Games",            caption: "18 games for Nickelodeon's Noggin platform" },
-  { image: bfrogBG,       title: "Business Frog",           caption: "Solo-developed 2D platformer" },
-  { image: mfScreen,      title: "MineFind",                caption: "Original puzzle game on the App Store" },
-  { image: ghostScreens,  title: "A Terrifying Ghost Story", caption: "Collaborative choose-your-own-adventure" },
-  { image: entropy,       title: "Entropy Survivors",       caption: "Freelance QA for Moving Pieces Interactive" },
-  { image: gameJams,      title: "Game Jams & More",        caption: "Assorted indie projects and game jams" },
+  { image: nogginCollage, title: "Noggin Games",             caption: "18 games for Nickelodeon's Noggin platform", link: "https://vimeo.com/994058258" },
+  { image: bfrogBG,       title: "Business Frog",            caption: "Solo-developed 2D platformer",               link: "https://jessesheehan.itch.io/business-frog" },
+  { image: mfScreen,      title: "MineFind",                 caption: "Original puzzle game on the App Store",      link: "https://apps.apple.com/us/app/minefind-puzzle-game/id6752503126" },
+  { image: ghostScreens,  title: "A Terrifying Ghost Story", caption: "Collaborative choose-your-own-adventure",    link: "https://jessesheehan.github.io/ghoststoryboo/" },
+  { image: entropy,       title: "Entropy Survivors",        caption: "Freelance QA for Moving Pieces Interactive", link: "https://store.steampowered.com/app/2602030/Entropy_Survivors/" },
+  { image: gameJams,      title: "Game Jams & More",         caption: "Assorted indie projects and game jams",      link: "https://jessesheehan.itch.io/" },
 ];
 
 const currentlyLoving = [
@@ -120,13 +120,19 @@ I've shipped licensed Nickelodeon properties and original IP alike — and I lov
         <div className="filmstrip-wrapper">
           <div className="filmstrip">
             {filmstripItems.map((item, i) => (
-              <div className="filmstrip-card" key={i}>
+              <a
+                key={i}
+                href={item.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="filmstrip-card"
+              >
                 <img src={item.image} alt={item.title} className="filmstrip-img" />
                 <div className="filmstrip-caption">
                   <strong>{item.title}</strong>
                   <span>{item.caption}</span>
                 </div>
-              </div>
+              </a>
             ))}
           </div>
           <p className="filmstrip-hint">← scroll to see more →</p>

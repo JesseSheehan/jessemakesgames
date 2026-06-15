@@ -37,7 +37,7 @@ function Projects() {
       description: "I hand-crafted this hardcore 2D platformer about a frog who needs to get to work on time. During the 6 months it took to create this game, I completed designed the levels and game mechanics, completed multiple rounds of playtesting, and even composed the soundtrack, while managing a handful of friends who helped out with the artwork. Very proud of this one.",
       image: BFrogLogo,
       caption: "Click the tile to play Business Frog!",
-      link: "https://sweetfreak.itch.io/business-frog",
+      link: "https://jessesheehan.itch.io/business-frog",
       backgroundImage: BFrogGameplay
     },
     {
@@ -57,7 +57,7 @@ function Projects() {
         description: "A terrifying choose-your-own-adventure about a ghost looking for closure in the afterlife. For this project, I worked with a close friend who created the artwork. Together we wrote the story, while I handled the programming.",
         image: ghostLogo,
         caption: "Click tile to play A Terrifying Ghost Story!",
-        link: "https://sweetfreak.github.io/ghoststoryboo/",
+        link: "https://jessesheehan.github.io/ghoststoryboo/",
         backgroundImage: ghostGame
       },
     {
@@ -77,7 +77,7 @@ function Projects() {
       description: "Check out my Itch.io page for projects from past game jams and more! I did not make the majority of this artwork, but I did participate in each project in roles such as a programmer, designer, and QA Tester.",
       image: sweetfreaklogo,
       caption: "Click tile to see my Itch.io page!",
-      link: "https://sweetfreak.itch.io/",
+      link: "https://jessesheehan.itch.io/",
       backgroundImage: gameJamsCollage
     },
    

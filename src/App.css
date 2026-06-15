@@ -396,6 +396,8 @@ p {
   overflow: hidden;
   position: relative;
   background: #000;
+  text-decoration: none;
+  display: block;
 }
 
 .filmstrip-img {
