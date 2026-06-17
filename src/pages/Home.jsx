@@ -75,13 +75,13 @@ function Home() {
             <img src={jessemario} alt="Jesse at Super Nintendo World" className="about-image" />
             <div className="about-text">
               <h1>Jesse Sheehan</h1>
-              <h4><i>Creative x Project Manager</i></h4>
+              <h4><i>Digital Producer x Creative Project Manager</i></h4>
               <br />
               <p>
                Thanks for visiting my website! 
               </p>
               <p>
-                I've been working in various forms of media production for 15 years from web series to animation to app and game development, and I'm looking for my next exciting opportunity.
+                I've been working in various forms of digital media production for 15 years from web series to animation to app and game development, and I'm looking for my next exciting opportunity. Please find my resume and portfolio below, or scroll down to learn more about me.
               </p>
 
               <div className="hero-ctas">
@@ -111,9 +111,9 @@ function Home() {
         <div className="home-producer-text">
           <h2>Creative Producer, Project Manager, and More!</h2>
           <p>
-           From award-winning kids games to self-published indie releases, I've spent years producing and designing content across a wide range of scales and audiences. Whether leading a team of artists and developers through an 18-game slate for a major IP, or building and shipping a solo project from scratch, I bring the same creative rigor and production focus to everything I work on.
+           From award-winning kids games to self-published indie releases, I've spent years producing and designing content across a wide range of scales and audiences. Whether leading a team of artists and developers through multiple productions featuring major IP, or building and shipping a solo project from scratch, I bring the same creative rigor and production focus to everything I work on.
 
-I've shipped licensed Nickelodeon properties and original IP alike — and I love both sides of that coin.
+I've shipped licensed Nickelodeon properties as well original IP and can handle the creative work on top of the logistics and operations needed to complete any project. 
           </p>
         </div>
 
@@ -147,12 +147,12 @@ I've shipped licensed Nickelodeon properties and original IP alike — and I lov
             <div className="about-text">
               <h2>About Me</h2>
                <p>
-            I'm Jesse Sheehan, a creative producer, project manager, and independent creator based in Brooklyn. For the past decade I've worked in kids media and digital content production, mostly as a Senior Producer at Nickelodeon's Noggin app, where I shipped 15+ branded educational games across Nick Jr. IP (PAW Patrol, Blue's Clues, Dora) as well as licensed partnerships with Hasbro, Spin Master, and The Metropolitan Museum of Art. One of those games picked up a 2024 Kidscreen Award, and around ten of which are still running on <i>Nick Jr. Replay</i> (Apple Arcade) and Nick.com nearly two years after Paramount sunset the Noggin app. 
+            I'm Jesse Sheehan, a creative digital producer, project manager, and independent developer based in Brooklyn, NY. For the past decade I've worked in kids media and digital content production, mostly as a Senior Producer at Nickelodeon's Noggin app, where I shipped 15+ branded educational games across Nick Jr. IP (PAW Patrol, Blue's Clues, Dora) as well as licensed partnerships with Hasbro, Spin Master, and The Metropolitan Museum of Art. One of those games picked up a 2024 Kidscreen Award, and around ten are still available on <i>Nick Jr. Replay</i> (Apple Arcade) and Nick.com nearly two years after Paramount sunset the Noggin app. 
           </p> <p>
               
 Outside of producing work, I write, design, and ship my own games and apps. MineFind is a Minesweeper-inspired puzzle game I built in Swift-UI and shipped to the App Store in 2025. Business Frog is a 2D platformer I made in Unity, mostly to learn the engine. I'm currently finishing VinylVision, an iOS app for music lovers who like to pilfer through record stores, but want to hear an album before they buy it. 
             
-            I studied screenwriting and TV production at Emerson college, and have continued to strenghten my prcreative problem solving muscles
+            I studied screenwriting and TV production at Emerson college, and have continued to strengthen my creative problem-solving muscles ever since.
           </p>
               <p>
                 What else am I up to? You'll have to{" "}
