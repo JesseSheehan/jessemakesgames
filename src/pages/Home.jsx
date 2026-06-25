@@ -87,7 +87,7 @@ function Home() {
               <div className="hero-ctas">
                 <Link to="/projects" className="btn-hero-primary">See My Work →</Link>
                 <a
-                  href="https://drive.google.com/file/d/1YE7U2cFXtcfLy-DsECjDRkHNxXssQatn/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1MbBGux63VnrtZVIR6x76MpqMoNzWF2Le/view?usp=sharing"
                   className="btn-hero-secondary"
                   title="Resume — swap this href for your actual link"
                 >
