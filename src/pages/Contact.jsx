@@ -1,8 +1,6 @@
 import React from "react";
 
 function Contact() {
-  const mailtoLink = `mailto:jessetsheehan@gmail.com?subject=${encodeURIComponent("Hey Jesse!")}&body=${encodeURIComponent("Hi Jesse,\n\n")}`;
-
   return (
     <div className="container mt-5" style={{ maxWidth: "700px" }}>
       <h1>Get In Touch</h1>
@@ -10,7 +8,7 @@ function Contact() {
         Whether you have a job opportunity, a collaboration idea, or just want to say hi — I'd love to hear from you.
       </p>
 
-      <div className="d-flex gap-3 mb-5">
+      <div className="d-flex gap-3">
         <a
           href="https://github.com/jessesheehan"
           target="_blank"
@@ -33,22 +31,6 @@ function Contact() {
           </svg>
           LinkedIn
         </a>
-      </div>
-
-      <div className="email-preview-box p-4 rounded">
-        <div className="email-header mb-4">
-          <div className="mb-2"><strong>To:</strong> jessetsheehan@gmail.com</div>
-          <div><strong>Subject:</strong> Hey Jesse!</div>
-        </div>
-        <div className="email-body mb-4">
-          <p className="text-muted mb-0">Hi Jesse,</p>
-          <p className="text-muted">...</p>
-        </div>
-        <div className="text-end">
-          <a href={mailtoLink} className="btn btn-primary px-4">
-            Open in Email
-          </a>
-        </div>
       </div>
     </div>
   );

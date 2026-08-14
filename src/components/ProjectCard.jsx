@@ -2,8 +2,10 @@ import React from 'react';
 import './ProjectCard.css';
 
 const ProjectCard = ({ title, role, completionDate, description, image, link, backgroundImage, caption }) => {
+  // Background art is washed out almost entirely so it reads as a faint tint,
+  // not a busy photo competing with the text.
   const cardStyle = {
-    backgroundImage: `linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.9)), url(${backgroundImage})`,
+    backgroundImage: `linear-gradient(rgba(253, 252, 250, 0.975), rgba(253, 252, 250, 0.655)), url(${backgroundImage})`,
     backgroundSize: 'cover',
     backgroundPosition: 'center'
   };

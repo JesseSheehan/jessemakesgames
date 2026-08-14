@@ -42,7 +42,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark custom-navbar" ref={navRef}>
+    <nav className="navbar navbar-expand-lg navbar-light custom-navbar" ref={navRef}>
       <div className="container-fluid">
         <img 
           src={JesseHeader} 
