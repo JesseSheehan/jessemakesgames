@@ -743,15 +743,27 @@ a:hover {
 }
 
 .contact-social-btn--linkedin {
-  background-color: transparent;
-  color: var(--ink);
-  border-color: var(--rule);
+  background-color: #0a66c2;
+  color: #fff;
+  border-color: #0a66c2;
 }
 
 .contact-social-btn--linkedin:hover {
-  background-color: var(--ink);
+  background-color: #004182;
   color: #fff;
-  border-color: var(--ink);
+  border-color: #004182;
+}
+
+.contact-social-btn--vimeo {
+  background-color: #1ab7ea;
+  color: #fff;
+  border-color: #1ab7ea;
+}
+
+.contact-social-btn--vimeo:hover {
+  background-color: #138fbe;
+  color: #fff;
+  border-color: #138fbe;
 }
 
 /* ============================================

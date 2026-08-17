@@ -5,10 +5,23 @@ function Contact() {
     <div className="container mt-5" style={{ maxWidth: "700px" }}>
       <h1>Get In Touch</h1>
       <p style={{ color: "var(--text-muted)" }}>
-        Whether you have a job opportunity, a collaboration idea, or just want to say hi — I'd love to hear from you.
+        Below are links to several of my socials. 
+        <br/>
+        To contact me or request my resume, please reach out on LinkedIn.
       </p>
 
-      <div className="d-flex gap-3">
+      <div className="d-flex gap-3 flex-wrap">
+        <a
+          href="https://www.linkedin.com/in/jessetsheehan/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="contact-social-btn contact-social-btn--linkedin"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor" style={{ marginRight: "0.5rem" }}>
+            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+          </svg>
+          LinkedIn
+        </a>
         <a
           href="https://github.com/jessesheehan"
           target="_blank"
@@ -21,17 +34,18 @@ function Contact() {
           GitHub
         </a>
         <a
-          href="https://www.linkedin.com/in/jessetsheehan/"
+          href="https://vimeo.com/jessetsheehan"
           target="_blank"
           rel="noopener noreferrer"
-          className="contact-social-btn contact-social-btn--linkedin"
+          className="contact-social-btn contact-social-btn--vimeo"
         >
           <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor" style={{ marginRight: "0.5rem" }}>
-            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+            <path d="M23.9 7.9c-.1 1.7-1.3 4-3.7 6.9-2.5 3.1-4.6 4.7-6.2 4.7-1.1 0-2.1-1-2.9-3.1-.5-1.8-1-3.6-1.4-5.5-.5-2-1.1-2.9-1.9-2.9-.1 0-.6.3-1.5.9l-.9-1.2c.9-.8 1.8-1.6 2.7-2.3 1.2-.9 2.1-1.4 2.8-1.5 1.5-.1 2.4.9 2.8 3.2.4 2.5.7 4.1 1.1 4.8.6 1.4 1.3 2 2.2 2 .7 0 1.6-.4 2.6-1.3 1-.8 1.6-1.7 1.8-2.7.2-1 .2-1.8-.1-2.5-.3-.8-1.1-1.2-2.3-1.2-.9 0-1.8.2-2.8.6 0-1.7.6-3.1 1.7-4.2 1.1-1.1 2.6-1.6 4.3-1.4 1.8.2 2.8 1.3 2.9 3.2z"/>
           </svg>
-          LinkedIn
+          Vimeo
         </a>
       </div>
+
     </div>
   );
 }
